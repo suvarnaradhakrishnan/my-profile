@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:navy;
+    height: 80px;
+    width: 100%;  
+}
+#heads{
+    color:white;
+    padding: 20px 0px 5px 25px;
+    display: inline-flex;
+}
+nav{
+    float: right;
+    margin: 30px 15px 5px 0px;
+    font-size: larger; 
+}  
+a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid navy;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 8px;
+}
+a:hover{
+    background-color: white;
+    color: navy;
+}
+.contact{
+    background-image: url(../images/bg4.jpg);
+    background-size: cover;
+    height: 490px;
+}
+.forms{
+    padding-top: 200px;
+    text-align: center;
+    font-size: larger;
+}
+#btn{
+    background-color:navy;
+    color: white;
+    padding: 5px;
+}
+footer{
+    background-color:navy;
+    height: 50px;
+    width: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+}
+h3{
+    color: white;
+}
